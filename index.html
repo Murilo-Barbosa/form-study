@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h2>Formulario</h2>
+      </div>
+      <form id="form" class="form">
+
+        <div class="form-control">
+          <label for="user-name">Nome de Usuario</label>
+          <input type="text" id="user-name" placeholder="Digite Seu Nome..."/>
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="fas fa-check-circle"></i>
+          <small>Mensagem De Erro!</small>
+        </div>
+
+        <div class="form-control">
+          <label for="user-email">Email</label>
+          <input type="text" id="user-email" placeholder="Digite Seu Email..."/>
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="fas fa-check-circle"></i>
+          <small>Mensagem De Erro!</small>
+        </div>
+
+        <div class="form-control">
+          <label for="user-password">Senha</label>
+          <input type="password" id="user-password" placeholder="Digite Sua Senha..."/>
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="fas fa-check-circle"></i>
+          <small>Mensagem De Erro!</small>
+        </div>
+
+        <div class="form-control">
+          <label for="confirm-password">Confirme Sua Senha</label>
+          <input type="password" id="confirm-password" placeholder="Digite Sua Senha..."/>
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="fas fa-check-circle"></i>
+          <small>Mensagem De Erro!</small>
+        </div>
+        
+        <button type="submit">Enviar</button>
+
+      </form>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/be23a53f5b.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>
